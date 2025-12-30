@@ -4,7 +4,7 @@ import random
 import os
 
 # Получаем токен из переменной окружения
-TOKEN = os.environ.get('8555162497:AAGs-uTa_sQ3SVnmVupt9FyeH9AL5V0SZGI')
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 bot = telebot.TeleBot(TOKEN)
 
 # Список пользователей, получивших открытку
